@@ -1,12 +1,12 @@
 
 import { Icon, Input } from '~/Components'
 
-export function Login () {
+export function Login() {
     return (
         <div>
             <header className="flex justify-center p-4 border-b-2 border-red-300" >
                 <div className="container max-w-xl flex justify-center  ">
-                    <img src="/assets-natrave/logo/logo-fundo-branco.svg" alt="logo NaTrave" className="w-32 md:w-40" />
+                    <img src="./src/assets/assets-natrave/logo/logo-fundo-branco.svg" alt="logo NaTrave" className="w-32 md:w-40" />
                 </div>
             </header>
 

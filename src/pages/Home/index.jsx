@@ -4,13 +4,13 @@ export function Home() {
     <div className="min-h-screen bg-red-700 text-white p-4 flex flex-col items-center space-y-6">
 
       <header className="container flex justify-center max-w-5xl p-4 " >
-        <img src="/assets-natrave/logo/logo-fundo-vinho.svg" alt="logo NaTrave" className="w-40" />
+        <img src="./src/assets/assets-natrave/logo/logo-fundo-vinho.svg" alt="logo NaTrave" className="w-40" />
       </header>
 
       <body className="container p-4 flex-1 flex flex-col items-center md:flex-row spacey-4">
 
         <div className="md:flex-1 flex justify-center">
-          <img src="/assets-natrave/imagem/img.png" alt="Duas pessoas com camisa da seleção" className="w-full max-w-md" />
+          <img src="./src/assets/assets-natrave/imagem/img.png" alt="Duas pessoas com camisa da seleção" className="w-full max-w-md" />
         </div>
 
         <div className="md:flex-1 flex flex-col space-y-6">
