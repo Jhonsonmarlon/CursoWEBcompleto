@@ -8,7 +8,7 @@ import { Home } from "./Home"
 import { Login } from "./Login"
 import { Signup } from "./Signup"
 import { Dashboard } from "./Dashboard"
-import { Dash2 } from "./Dash2"
+import { Profile } from "./Profile"
 
 
 const router = createBrowserRouter([
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
         element: <Dashboard />,
     },
     {
-        path: "/dash2",
-        element: <Dash2 />,
+        path: "/profile",
+        element: <Profile />,
     },
 ])
 

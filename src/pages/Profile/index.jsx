@@ -1,18 +1,15 @@
 import { Icon, Card, DataSelect } from '~/Components'
 
-export function Dashboard() {
+export function Profile () {
     return (
         <>
             
-            <div className=" bg-red-500 space-y-6 text-white" >
+            <div className="" >
 
-                <header className="flex justify-center">
+                <header className="bg-red-500 flex justify-center">
                     <div className="container max-w-5xl flex justify-between items-center p-4">
                         <a href="/">
                             <img src="./src/assets/assets-natrave/logo/logo-fundo-vermelho.svg" alt="logo NaTrave" className="w-28 md:w-40" />
-                        </a>
-                        <a href="/profile">
-                            <Icon name="profile" className="w-10" />
                         </a>
                     </div>
                 </header>
@@ -20,17 +17,28 @@ export function Dashboard() {
                 <main className="">
 
                     <section id="header" className=" bg-red-500 text-white flex justify-center ">
-                        <div className=" container max-w-5xl space-y-2 flex flex-col flex items-start p-4">
-                            <span>Olá Jhonson</span>
-                            <h3 className="font-bold text-2xl ">Qual é o seu palpite?</h3>
+
+                        <div className=" container max-w-5xl space-y-4 flex flex-col items-start p-4">
+
+                            <a href="/dashboard">
+                                <Icon name="back" className="w-5"></Icon>
+                            </a>
+                            <span className="font-bold text-2xl capitalize ">jhonson marlon</span>
+
                         </div>
+
                     </section>
+
+                    <div className='flex justify-center'>
+                        <h2 className='text-red-500 font-bold text-xl py-5'>Seus Palpites</h2>
+                    </div>
 
                 </main>
 
             </div>
 
-            <main class="sessão_jhonson" id="content" className=" flex flex-col justify-center items-center ">
+            <main className=" flex flex-col justify-center items-center ">
+
 
                 <section className="">
 

@@ -13,6 +13,7 @@ module.exports = {
       xl: ['24px', '32px'],
       '2xl': ['32px', '40px'],
       '3xl': ['48px', '56px'],
+      '4xl': [ '56px' , '64px'],
     },
     extend: {
       colors: {
