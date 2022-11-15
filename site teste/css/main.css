@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px !important;
+
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 7px;
+    width: 70%;
+}
+
+img.logo-transp {
+    width: 181px;
+}
+
+.redes-sociais ul li {
+    margin-left: 22px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais {
+    padding-top: 16px;
+    width: 25%;
+    float: right;
+}
+
+.twit {
+    padding-top: 3px;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu-urls {
+    border-bottom: 4px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 5px solid #00bac0;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    color: #00bac0;
+}
+
+.menu {
+    height: 25px;
+    float: left;
+    position: absolute;
+}
+
+.menu ul {
+    padding-top: 0;
+    height: 25px;
+}
+
+.busca {
+    padding-top: 0px;
+    width: 277px;
+    float: right;
+    position: relative;
+    top: -9px;
+}
+
+.busca input {
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 93%;
+    padding: 15px;
+    text-align: left;
+    height: 36px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100 {
+    padding: 20px 0 16px 0px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.col-100-2 {
+    padding: 37px 0 0 0;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 138px;
+}
+
+button.slick-prev {
+    display: inline-block;
+    font-size: 0px;
+    border: 0px;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    position: absolute;
+    z-index: 9;
+    top: 34%;
+    left: 20%;
+}
+
+button.slick-next {
+    display: inline-block;
+    font-size: 0px;
+    border: 0px;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/proximo.png);
+    position: absolute;
+    z-index: 9;
+    top: 34%;
+    right: 20%;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    border: 4px solid #000000;
+    font-size: 0px;
+    border-radius: 50%;
+    padding-right: 0;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+    position: relative;
+    left: 48%;
+    top: -46px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 13px;
+    ;
+}
+
+li.slick-active button {
+    background-color: rgb(255, 0, 0);
+}
